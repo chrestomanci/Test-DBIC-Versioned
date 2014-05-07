@@ -1,3 +1,5 @@
+/.includepath
+/.project
 /blib/
 /.build/
 _build/
