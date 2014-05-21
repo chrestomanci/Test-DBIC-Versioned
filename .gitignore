@@ -1,3 +1,8 @@
+*~
+*.orig
+*.bak
+/.prove
+/perltidy.LOG
 /.includepath
 /.project
 /blib/
@@ -19,3 +24,4 @@ nytprof.out
 /pm_to_blib
 *.o
 *.bs
+/Test-DBIC-Versioned-*
