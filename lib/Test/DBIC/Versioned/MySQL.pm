@@ -4,6 +4,8 @@ use strict;
 use warnings;
 use 5.016;
 
+# VERSION
+
 =head1 NAME
 
 Test::DBIC::Versioned:MySQL - Subclass with specific methods for MySQL

@@ -4,6 +4,8 @@ use strict;
 use warnings;
 use 5.016;
 
+# VERSION
+
 =head1 NAME
 
 Test::DBIC::Versioned - Test upgrade scripts for L<< DBIx::Class::Schema::Versioned >>
