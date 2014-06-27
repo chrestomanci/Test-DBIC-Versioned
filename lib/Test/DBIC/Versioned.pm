@@ -83,7 +83,7 @@ has 'dsn' => (
 
 =head2 dbh
 
-The database dbh handle. It contains a connection t the database.
+The database dbh handle. It contains a connection to the database.
 
 =cut
 
