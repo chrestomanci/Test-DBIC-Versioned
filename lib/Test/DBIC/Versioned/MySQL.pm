@@ -164,6 +164,9 @@ sub describe_tables {
     my $dbh         = $self->dbh;
     my $json        = $self->_json_engine;
 
+    # TODO: Use "show create table $table" here instead
+    #       as people will understand the output more easily.
+
     my $table_names = $dbh->selectcol_arrayref("SHOW TABLES");
 
     foreach my $table (@$table_names) {
