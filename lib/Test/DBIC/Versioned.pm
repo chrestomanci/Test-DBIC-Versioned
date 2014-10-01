@@ -118,4 +118,12 @@ has _json_engine => (
     default => sub { return JSON->new->pretty(1) }
 );
 
+=head1 LICENSE AND COPYRIGHT
+
+Copyright (C) 2014 "spudsoup"
+
+This program is released under the Artistic License version 2.0
+
+=cut
+
 1;
